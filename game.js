@@ -1,5 +1,5 @@
-window.gameLoad = fonction(bbqgame) {         // fonction appelée par le manager
-       var bbq = bbqgame;                                // il faudrait peut être limiter cet objet (juste ready() ?)
+window.gameLoad = fonction(bbqgame) {  // fonction appelée par le manager
+       var bbq = bbqgame;              // il faudrait peut être limiter cet objet (juste ready() ?)
 
        bbqgame.onStart(function(difficulty) {
 
@@ -12,7 +12,7 @@ window.gameLoad = fonction(bbqgame) {         // fonction appelée par le manage
 
              // ok, fini de charger mes 50Mo d'images
              
-             bbq.ready();                                       // le manager peut arrêter le "loading..."
-                                                                     //  et lancer le jeu avec onStart() du mini jeu
+             bbq.ready();          // le manager peut arrêter le "loading..."
+                                   //  et lancer le jeu avec onStart() du mini jeu
        })
 }
